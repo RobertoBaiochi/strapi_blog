@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * react controller
+ * setting controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::react.react');
+module.exports = createCoreController('api::setting.setting');
